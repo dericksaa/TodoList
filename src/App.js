@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Container from './components/Container';
+// import FormTodo from './components/FormTodo';
+// import Checkbox from './components/Checkbox';
+// import Tasklist from './components/TaskList';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Container/>
+    {/* <FormTodo/>
+    <Checkbox/>
+    <Tasklist/> */}
     </div>
   );
 }
